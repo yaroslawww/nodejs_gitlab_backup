@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_gitlab_backup",
+  "version": "1.0.0",
+  "description": "Clone all projects from gitlab what you has access",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaroslawww/nodejs_gitlab_backup.git"
+  },
+  "author": {
+    "name": "Yaroslav Georgitsa",
+    "email": "yaroslav.georgitsa@gmail.com",
+    "url": "https://yaroslawww.github.io/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
